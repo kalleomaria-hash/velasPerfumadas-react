@@ -1,3 +1,10 @@
+header {
+    background-color: #7B3314;
+    height: 80px;
+    align-items: center;
+    justify-content: end;
+}
+
 .container_cabecalho {
     display: flex;
 }
