@@ -12,6 +12,7 @@
     box-shadow: 0 4px 4px 2px #00000025;
     align-items: center;
     cursor: pointer;
+    font-family: "Bellota", system-ui; 
 }
 
 .card_produto .nome {
