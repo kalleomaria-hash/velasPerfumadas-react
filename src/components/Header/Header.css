@@ -1,21 +1,30 @@
-
-
 header {
     background-color: #7B3314;
-    height: 80px;
+    /* height: 80px; */
     align-items: center;
-    justify-content: end;
+
 }
 
 .container_cabecalho {
     display: flex;
 }
 
-.menu_barras {
-    width: 50px;
-    color: #ffffff;
-    display: none;
-    z-index: 2;
+.me-auto {
+    width: 100%;
+    /* justify-content: space-between; */
+    padding: 0 3rem;
+}
+
+.conteudo-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basic-navbar-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .pagina_produtos {
@@ -29,7 +38,6 @@ header {
 }
 
 .logo {
-    margin-left: 123px;
     height: 30px;
     width: 100px;
 }
@@ -53,7 +61,7 @@ header {
 
 .colecao p {
     cursor: pointer;
-    font-family: "Bellota", system-ui; 
+    font-family: "Bellota", system-ui;
 }
 
 .lupa_k {
@@ -61,18 +69,32 @@ header {
     z-index: 3;
 }
 
-.box_busca{
+.box_busca {
     position: relative;
     width: 60%;
     max-width: 500px;
     margin: 0 10px;
 }
 
-.campo_busca{
+.campo_busca {
     width: 100%;
     height: 42px;
     border-radius: 10px;
     border: solid 1px #cccccc;
     padding-left: 5px;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .me-auto {
+        align-items: center;
+    }
+
+    .logo {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .colecao {
+        margin-bottom: 5px;
+    }
 }

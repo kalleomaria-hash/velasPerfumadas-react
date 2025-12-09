@@ -8,7 +8,7 @@
   "produtos": [
     {
       "nome": "Vela Perfumada Maçã",
-      "categorias": ["Outono", "Perfumadas"],
+      "categorias": ["Outono"],
       "imagens": ["card_1.png"],
       "id": "v01",
       "preco": 89.00,
@@ -16,7 +16,7 @@
     },
     {
       "nome": "Vela Perfumada Abóbora",
-      "categorias": ["Outono", "Perfumadas"],
+      "categorias": ["Outono"],
       "imagens": ["card_2.png"],
       "id": "v02",
       "preco": 89.00,
@@ -24,7 +24,7 @@
     },
     {
       "nome": "Vela Perfumada Canela",
-      "categorias": ["Outono", "Perfumadas"],
+      "categorias": ["Outono"],
       "imagens": ["card_3.png"],
       "id": "v03",
       "preco": 89.00,
@@ -32,7 +32,7 @@
     },
     {
       "nome": "Vela Perfumada Marshmallow",
-      "categorias": ["Outono", "Perfumadas"],
+      "categorias": ["Outono"],
       "imagens": ["card_4.png"],
       "id": "v04",
       "preco": 89.00,
